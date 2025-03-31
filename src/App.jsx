@@ -13,16 +13,14 @@ const App = () => {
         className="imagee"
       ></ImageComponent>
 
-      <button>
-        <ButtonComponent text="PUSH ME"></ButtonComponent>
-      </button>
+      <ButtonComponent text="PUSH ME"></ButtonComponent>
+
       <ImageComponent
         foto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK2LYn-nGShxzdXqFAX9wuiG1GVunHvGJN-g&s"
         alt="Luka e LeBron"
       ></ImageComponent>
-      <button>
-        <ButtonComponent text="CLICK ME"></ButtonComponent>
-      </button>
+
+      <ButtonComponent text="CLICK ME"></ButtonComponent>
     </>
   );
 };
